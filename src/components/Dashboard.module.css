@@ -1,0 +1,54 @@
+.grow {
+    display: flex;
+    flex-grow: 1;
+  }
+
+.menuButton {
+    margin-right: 2rem;
+  }
+
+.title {
+    display: none;
+ 
+  }
+
+.search {
+    position: relative;
+    border-radius: 10px;
+    background-color: white;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    width: 100%;
+    width: auto,
+    }
+
+.searchIcon {
+    padding: 20px;
+    height: 100%;
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .inputRoot {
+    color: inherit;
+  }
+
+.inputInput {
+    padding: 1rem 1rem 1rem 0;
+    padding-left: 1rem;
+    transition: width;
+    width: 100%;
+    
+  }
+
+.sectionDesktop {
+    display: none;
+
+  }
+
+.sectionMobile {
+    display: flex;
+}
